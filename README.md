@@ -1,4 +1,4 @@
-**🤖 Dynamic AI Agents Playground**
+**#🤖 Dynamic AI Agents Playground**
 
 Agents jo ham sey ziada smart — ab flight book karte, mareez ko samjhatay aur safar plan karte hain!
 “They say practice makes perfect… but in our case, practice makes AGENTS! ☕😂
@@ -13,7 +13,7 @@ Focus domains: Medical consultation, Airline seat recommendations, Travel planni
 
 Ready-to-use prompt templates, example scripts, and a recommended prompt pattern for easy integration with any LLM/orchestration system.
 
-✨ Exercises included
+**✨ Exercises included**
 1. Medical Consultation Assistant (Intermediate)
 
 Agent switches language by user role:
@@ -62,11 +62,11 @@ Cultural + Family → kid-friendly museums, interactive itineraries.
 
 Business + Executive → efficiency-first plans, lounges, fast Wi-Fi.
 
-🧠 Design Principles
+**🧠 Design Principles**
 
 Context-first: small structured fields (role, preference, experience) control behavior.
 
-🛠 Quick Start
+**🛠 Quick Start**
 
 Clone the repo:
 
@@ -106,7 +106,7 @@ python examples/run_travel_demo.py      # test travel planner
 
 Each script accepts a JSON-like context and prints the generated prompt + a sample LLM-style output. Tweak templates in prompts/ to tune tone and verbosity.
 
-🧩 Prompt Pattern (recommended)
+**🧩 Prompt Pattern (recommended)**
 
 Use a short modular pattern that your orchestration layer can populate:
 
@@ -130,3 +130,48 @@ Human-centered: clarity and empathy prioritized; safety for high-risk domains.
 
 Testable: examples + tests to ensure consistent tone & behavior.
 
+
+**🧪 Testing & Tuning**
+
+Add input/expected-output pairs under tests/.
+
+Use snapshot tests for prompt → LLM response stability.
+
+Track tone with heuristics (jargon ratio, sentence length).
+
+**🤝 Contributing**
+
+Fork, add an agent/template, include tests/examples, then open a PR.
+
+Suggested workflow:
+
+Fork → feature/your-agent
+
+Add templates, examples, and tests
+
+PR with sample contexts + expected outputs
+
+Keep PRs focused and include short examples.
+
+**⚠️ Safety & Disclaimers**
+
+Medical outputs are for demonstration only. Do not use these agents in production without licensed professional review.
+
+Implement human-in-the-loop checks for any high-risk domain (medical, legal, financial).
+
+Add domain-specific disclaimers and safety filters where appropriate.
+
+**📚 Roadmap / Ideas**
+
+Live UI playground to toggle context fields and preview prompts/outputs.
+
+Collect anonymized user feedback to tune tone and safety.
+
+Expand domains (legal, finance, education) with domain-specific guardrails.
+
+**📜 License**
+
+MIT — see LICENSE for details.
+
+Made with ☕, curiosity, and a tiny bit of chaos.
+Dynamic. Adaptive. Human-like.
