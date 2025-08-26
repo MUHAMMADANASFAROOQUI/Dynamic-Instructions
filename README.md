@@ -1,11 +1,11 @@
-**🤖 Dynamic AI Agents Playground**
+# **🤖 Dynamic AI Agents Playground**
 
 Agents jo ham sey ziada smart — ab flight book karte, mareez ko samjhatay aur safar plan karte hain!
 “They say practice makes perfect… but in our case, practice makes AGENTS! ☕😂
 
 A small experimental playground demonstrating Dynamic Instructions for AI agents — making them context-aware, adaptive, and (almost) human-like. Use these templates to build agents that change tone, detail, and actions based on a few context fields.
 
-**🔥 Highlights**
+# **🔥 Highlights**
 
 One agent, many personalities — controlled by small structured context fields.
 
@@ -13,7 +13,7 @@ Focus domains: Medical consultation, Airline seat recommendations, Travel planni
 
 Ready-to-use prompt templates, example scripts, and a recommended prompt pattern for easy integration with any LLM/orchestration system.
 
-**✨ Exercises included**
+# **✨ Exercises included**
 1. Medical Consultation Assistant (Intermediate)
 
 Agent switches language by user role:
@@ -175,4 +175,5 @@ MIT — see LICENSE for details.
 
 Made with ☕, curiosity, and a tiny bit of chaos.
 Dynamic. Adaptive. Human-like.
+
 
