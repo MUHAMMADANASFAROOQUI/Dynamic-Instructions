@@ -1,4 +1,4 @@
-**#🤖 Dynamic AI Agents Playground**
+**🤖 Dynamic AI Agents Playground**
 
 Agents jo ham sey ziada smart — ab flight book karte, mareez ko samjhatay aur safar plan karte hain!
 “They say practice makes perfect… but in our case, practice makes AGENTS! ☕😂
@@ -175,3 +175,4 @@ MIT — see LICENSE for details.
 
 Made with ☕, curiosity, and a tiny bit of chaos.
 Dynamic. Adaptive. Human-like.
+
